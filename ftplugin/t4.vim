@@ -16,6 +16,7 @@ setlocal tw=0
 " Change the browse dialog on Win32 to show mainly PowerShell-related files
 if has("gui_win32")
 	let b:browsefilter = "T4 Template Files (*.tt)\t*.tt\n" .
+      \ "T4 Template include Files (*.ttinclude)\t*.ttinclude\n" .
 		\ "All Files (*.*)\t*.*\n"
 endif
 
