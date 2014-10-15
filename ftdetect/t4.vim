@@ -6,3 +6,5 @@
 " $Rev $
 
 au BufRead,BufNewFile *.tt 	set filetype=t4
+au BufRead,BufNewFile *.ttinclude 	set filetype=t4
+au BufRead,BufNewFile *.tti 	set filetype=t4
