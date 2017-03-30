@@ -1,0 +1,3 @@
+# .vim files MUST be lf.
+*       text=auto
+*.vim   text eol=lf
